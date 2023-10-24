@@ -2,7 +2,7 @@ import ast
 from graphviz import Digraph
 import pkgutil
 
-SOURCE = "deps.py"
+SOURCE = "basic-test.py"
 
 class ASTVisualizer(ast.NodeVisitor):
     def __init__(self):
